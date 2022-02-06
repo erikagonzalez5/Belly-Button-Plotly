@@ -47,6 +47,7 @@ function barChart (sampleotu){
         let otusamplesID = data.samples;
         let otuArray = otusamplesID.filter(object => object.id == sampleotu);
         let otuResult = otuArray[0];
+        // console.log(otuResult); to check
 //rename variables
         let otu_ids = otuResult.otu_ids;
         let otu_labels = otuResult.otu_labels;
@@ -78,6 +79,7 @@ function bubbleChart (sampleotu){
         let otusamplesID = data.samples;
         let otuArray = otusamplesID.filter(object => object.id == sampleotu);
         let otuResult = otuArray[0];
+        // console.log(otuResult); to check
 //rename variables
         let otu_ids = otuResult.otu_ids;
         let otu_labels = otuResult.otu_labels;
