@@ -33,13 +33,6 @@ function init() {
     });
 };
 
-// display the data
-function optionChanged(namesID) {
-    console.log(namesID);
-    barChart(namesID);
-    bubbleChart(namesID);
-    metaData(namesID);
-};
 
 // //create bar chart from ID's
 function barChart (sampleotu){
@@ -123,5 +116,13 @@ function metaData (sampleotu){
         console.log(otuResult);
     })
 
+};
+
+// display the data
+function optionChanged(namesID) {
+    console.log(namesID);
+    barChart(namesID);
+    bubbleChart(namesID);
+    metaData(namesID);
 };
 init();
